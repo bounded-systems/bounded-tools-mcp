@@ -1,0 +1,54 @@
+server.json
+  s_98e316d0b3248a::t_b4b480d22c582a 1-29
+README.md
+  s_98e316d0b3248a::t_28c81412a9d4c0 1-243
+test/server.test.ts
+  s_98e316d0b3248a::t_f417d6ec53e5d6 1-100
+test/cli.test.ts
+  s_98e316d0b3248a::t_ebdb52b4003a7e 1-68
+src/verbs.ts
+  s_98e316d0b3248a::t_5b55441132c79d 1-38
+src/index.ts
+  s_98e316d0b3248a::t_b9be462865da4f 1-35
+LICENSE
+  s_98e316d0b3248a::t_cfa770e28ab08c 3
+  s_98e316d0b3248a::t_b378abeac5e2e0 1-2,4-21
+src/catalog.ts
+  s_98e316d0b3248a::t_1bf25d655c6041 1-45
+deno.json
+  s_98e316d0b3248a::t_3978861d51fbde 1-17
+package.json
+  s_98e316d0b3248a::t_d9f62aeb9d3d7e 1-64
+scripts/headless-check.mjs
+  s_98e316d0b3248a::t_6ac6ec714e369a 1-36
+src/config.ts
+  s_98e316d0b3248a::t_a84b347d0115b9 1-34
+.github/workflows/publish.yml
+  s_98e316d0b3248a::t_4fb7f14f42b4db 1-144
+src/server.ts
+  s_98e316d0b3248a::t_6ec48bf3ad597a 1-51
+.gitignore
+  s_98e316d0b3248a::t_b415eef05de991 1-5
+.npmrc
+  s_98e316d0b3248a::t_97d7c479682da7 1
+package-lock.json
+  s_98e316d0b3248a::t_f7458a3f4a0b42 1-2340
+tsconfig.json
+  s_98e316d0b3248a::t_0a7a9869ef7be0 1-18
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.3",
+  "base_commit_sha": "44597ad928490a4807aac3ee0cb6e79fd930ab37",
+  "prompts": {},
+  "sessions": {
+    "s_98e316d0b3248a": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "8db980ee-eb6b-4866-832b-f795cef7f33c",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Robert DeLanghe <1240090+bdelanghe@users.noreply.github.com>"
+    }
+  }
+}
