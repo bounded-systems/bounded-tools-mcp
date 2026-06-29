@@ -1,0 +1,29 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.bounded-systems/bounded-tools-mcp",
+  "description": "Read-only MCP server over bounded.tools's Sigstore-verified static API (stdio).",
+  "version": "0.1.0",
+  "websiteUrl": "https://bounded.tools",
+  "repository": {
+    "url": "https://github.com/bounded-systems/bounded-tools-mcp",
+    "source": "github"
+  },
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "@bounded-systems/bounded-tools-mcp",
+      "version": "0.1.0",
+      "runtimeHint": "npx",
+      "transport": { "type": "stdio" },
+      "environmentVariables": [
+        {
+          "name": "BOUNDED_TOOLS_MCP_SIGNATURE_MODE",
+          "description": "Manifest Sigstore signature check: off | warn | require.",
+          "isRequired": false,
+          "isSecret": false,
+          "default": "off"
+        }
+      ]
+    }
+  ]
+}
